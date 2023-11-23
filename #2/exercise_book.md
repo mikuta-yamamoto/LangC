@@ -1,6 +1,12 @@
 # 本日の総合テスト
 ## 1.基本構造と出力
 - C言語で、"Welcome to C Programming!"と出力するプログラムを作成してください。
+#include <stdio.h>
+
+int main(void) {
+    printf("Welcome to C Programming!\n");
+    return 0;
+}
 
 ---
 
