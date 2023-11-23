@@ -29,4 +29,11 @@ int main(void) {
 
 ## 3.変数と型変換
 - 整数型の変数priceに500を代入し、その後、1.1倍した結果を浮動小数点数として出力するC言語プログラムを作成してください。
-  
+#include <stdio.h>
+
+int main(void) {
+    int price = 500;
+    double result = price * 1.1;
+    printf("Price after increase: %.2f\n", result);
+    return 0;
+}
